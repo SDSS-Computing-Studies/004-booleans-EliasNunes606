@@ -23,8 +23,8 @@ word = 'password'
 word2 = "Password"
 
 if word in sentence:
-    print('The sentence contains password')
+    print('the sentence contains password')
 elif word2 in sentence:
-    print("The sentence contains password")
+    print("the sentence contains password")
 elif word not in sentence:
-    print("The sentence does not contain password")
+    print("the sentence does not contain password")
