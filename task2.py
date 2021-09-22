@@ -24,6 +24,6 @@ number = float( input("Input your number:"))
 if number == 0:
     print("zero")
 elif number < 0:
-    print("negitive")
+    print("negative")
 elif number > 0:
-    print("postive")
+    print("positive")
