@@ -29,3 +29,13 @@ Enter c: 8
 the equation can not be factored
 
 """
+
+
+a = float(input("Enter a number:"))
+b = float(input("Enter another number:"))
+c = float(input("Enter another number:"))
+x = (b**2) - 4 * a * c
+if x != 0:
+    print("the equation can not be factored")
+else:
+    print("the equation can be factored")
